@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>五子棋</title>
+	<link rel="stylesheet" type="text/css" href="./stylesheets/index.css">
+	<script type="text/javascript" src="./scripts/index.js"></script>
+</head>
+<body>
+	<div id="screen"></div>
+	<div class="kuai bai">
+		<div class="xiang"></div>
+		<div class="qizi" id="hei"></div>
+		<div class="jishi" id="b_jishi">10</div>
+	</div>
+	<div class="kuai hei">
+		<div class="xiang"></div>
+		<div class="qizi" id="bai"></div>
+		<div class="jishi" id="h_jishi">10</div>
+	</div>
+	<div id="renshu" class="ops">认输</div>
+	<div id="shuoming" class="ops">游戏说明</div>
+	<div id="tip">
+		<p>当任意方向上有连续的五颗棋子时，玩家赢得胜利;即将落子的一方会有十秒倒计时，如果在十秒之内未能落子则另一玩家获得胜利;在落子期间你可以选择认输或者和棋，但和棋必须经过另一玩家的同意才能生效，否则游戏继续。</p>
+		<p id="close">关闭</p>
+	</div>
+	<div id="tip1">
+		<p>是否同意和棋？</p>
+		<p id="yes">是</p><p id="no">否</p>
+	</div>
+	<div id="heqi" class="ops">和棋</div>
+	<div id="zhezhao">
+		<div id="xinxi"></div>
+		<div id="re_start">重新开始</div>
+	</div>
+</body>
+</html>
